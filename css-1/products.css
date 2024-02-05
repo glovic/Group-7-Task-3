@@ -1,0 +1,201 @@
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.main-body {
+  width: 1240px;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+
+.main-body .search-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-body .search-section > p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -1.9%;
+}
+
+.main-body .search-section > p span {
+  color: #4094f7;
+}
+
+.main-body .search-section .left-search-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main-body .search-section .left-search-section .dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dde2e4;
+  border-radius: 6px;
+  padding: 4px 4px 4px 12px;
+  gap: 4px;
+}
+
+.main-body .search-section .left-search-section .dropdown > p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9aa6ac;
+}
+
+.main-body .search-section .left-search-section .dropdown > p > span {
+  color: #252c32;
+}
+
+.main-body .search-section .left-search-section .view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-body .search-section .left-search-section .view .first-grouped-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #e5e9eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-body
+  .search-section
+  .left-search-section
+  .view
+  .first-grouped-icon
+  .view-list,
+.main-body
+  .search-section
+  .left-search-section
+  .view
+  .first-grouped-icon
+  .view-grid {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-body .search-section .left-search-section .view .second-grouped-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #f6f8f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin-top: 2rem;
+  display: flex;
+  gap: 30px;
+}
+
+.product-content .chat-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #4094f7;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 10%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 310px);
+  grid-template-rows: repeat(2, 394px);
+}
+
+.grid-item {
+  border: 1px solid#E5E9EB;
+  padding: 10px;
+  position: relative;
+}
+
+.grid-item .heart {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item .add {
+  position: absolute;
+  top: 37px;
+  right: 5px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item .product-image {
+  width: 250px;
+  height: 250px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.grid-item .ratings {
+  display: flex;
+}
+
+.grid-item .ratings .rate {
+  width: 16px;
+  height: 16px;
+}
+
+.grid-item .ratings .half-rate {
+  position: relative;
+}
+
+.grid-item .ratings .half-rate .left {
+  position: absolute;
+  top: 2px;
+  left: 0px;
+}
+.grid-item .ratings .half-rate .right {
+  position: absolute;
+  top: 2px;
+  left: 6px;
+}
+
+.grid-item .ratings div:last-of-type {
+  margin-right: 5px;
+}
+
+.grid-item p {
+  font-family: "Inter", sans-serif;
+}
+
+.grid-item .product-name,
+.grid-item .product-rating {
+  font-weight: 400;
+}
+
+.grid-item .product-price {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 5px 0px;
+}
