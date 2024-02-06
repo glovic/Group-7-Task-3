@@ -1,1 +1,16 @@
 /* Name of Contributor: <<Input your name here>> */
+.pagination,
+.pagination button,
+.pagination .num {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1rem 1rem;
+}
+.pagination button {
+  height: 36px;
+  padding: 0.5rem 1rem;
+  border: solid gray 1px;
+  border-radius: 5px;
+  background-color: white;
+}
