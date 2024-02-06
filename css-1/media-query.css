@@ -1,0 +1,94 @@
+
+@media only screen and (max-width: 548px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .main-body {
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .main-body .search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .main-body .search-section > p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-inline: 1rem;
+  }
+
+  /* Filters */
+
+  .left-section {
+    width: 100%;
+  }
+
+  .filterA .checkbox,
+  .filterB .checkbox,
+  .filterC .checkbox,
+  .filterD .checkbox {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+  }
+
+  .filterA .text,
+  .filterB .text,
+  .filterC .text,
+  .filterD .text {
+    font-size: 12px;
+  }
+
+  /* Product content */
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    padding-bottom: 50px;
+  }
+
+  .grid-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .grid-item .product-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .grid-item .ratings .rate {
+    width: 12px;
+    height: 12px;
+  }
+
+  .grid-item p {
+    font-size: 12px;
+  }
+
+  .grid-item .product-price {
+    font-size: 14px;
+  }
+ 
+}
+
+/* Very small screens */
+@media only screen and (max-width: 320px) {
+  .grid-container {
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+}
