@@ -14,7 +14,7 @@
   border-radius: 5px;
   background-color: white;
 }
-.num {
+.num, .num-mobile {
   display: flex;
   gap: 5px;
   font-family: 'Inter', sans-serif;
@@ -26,18 +26,9 @@
   padding: 5px;
 }
 .num-mobile {
-  display: flex;
-  gap: 5px;
-  font-family: 'Inter', sans-serif;
   font-size: 18px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: left;
-  padding: 5px;
   border-radius: 8px;
   color: #344054;
-  ;
 }
 .one {
   padding: 12px;
