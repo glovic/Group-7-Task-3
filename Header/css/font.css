@@ -1,0 +1,8 @@
+        /* Define @font-face rule */
+        
+        @font-face {
+            font-family: 'Inter', sans-serif;
+            src: url('/Task/assest/font/Inter-Black.ttf') format('ttf'), url('/Task/assest/font/Inter-Bold.ttf') format('ttf');
+            font-weight: normal;
+            font-style: normal;
+        }

@@ -1,0 +1,15 @@
+/* Import other stylesheets */
+
+@import url('font.css');
+@import url('header.css');
+
+/* Additional styles for the main stylesheet */
+
+* {
+    box-sizing: content-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}

@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo img,
+.burger-menu button,
+.search-bar input[type="text"],
+.search-bar button,
+.menu li,
+.menu li a {
+    display: flex !important;
+    align-items: center !important;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 162px;
+    height: 24px;
+}
+
+.burger-menu button {
+    background: #2F80ED;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px 12px;
+    margin-right: 10px;
+}
+
+.burger-menu button img {
+    margin-right: 5px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 560px;
+}
+
+.search-bar button {
+    background-color: none;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.signin-btn {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 20px 30px;
+    margin-left: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 06%;
+    transition: background-color 0.3s ease;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.menu li a img {
+    margin-right: 10px;
+}
+
+.menu li a:hover {
+    color: #007bff;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart .notification {
+    position: absolute;
+    top: -10px;
+    right: 50%;
+    background-color: red;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+
+.locat {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4em;
+}
+
+.location img {
+    text-indent: 180px;
+    margin-right: 0px;
+    vertical-align: middle;
+}
+
+.location a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+
+.category {
+    margin-left: 0;
+}
+
+.categories {
+    list-style-type: none;
+    margin-left: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.categories li {
+    margin: 0 10px;
+}
+
+.categories li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.categories li a:hover {
+    color: #007bff;
+}
+
+@media only screen and (max-width: 1024px) {
+    nav {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .logo {
+        order: 2 !important;
+        margin-right: 11px;
+    }
+    .search-bar {
+        order: 4;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .burger-menu button {
+        order: 1;
+        width: auto;
+        background: #007bff;
+        border: none;
+        padding: 10px;
+        margin: 10px;
+    }
+    .burger-menu button img {
+        width: 30px;
+    }
+    .menu li:nth-child(1),
+    .menu li:nth-child(2) {
+        display: none !important;
+    }
+    .menu {
+        order: 3;
+    }
+    .menu .cart {
+        display: block;
+        margin-right: 20px;
+    }
+    .signin-btn {
+        display: none;
+    }
+    .locat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .category {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .categories {
+        white-space: nowrap;
+        margin-left: 5em;
+        margin-bottom: 1em;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .categories li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .categories li:first-child {
+        margin-left: 0;
+    }
+    .location {
+        order: 2;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 16px;
+        border: 2px solid #007bff;
+        border-radius: 6px;
+        text-decoration: none;
+        margin-left: 10px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    @media screen and (max-width: 768px) {
+        nav {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .logo {
+            order: 2 !important;
+            margin-right: 11px;
+        }
+        .search-bar {
+            order: 4;
+            width: 100%;
+            margin: 20px auto;
+        }
+        .burger-menu button {
+            order: 1;
+            width: auto;
+            text-indent: -999999px;
+            background: #007bff;
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+        .burger-menu button img {
+            width: 30px;
+        }
+        .menu li:nth-child(1),
+        .menu li:nth-child(2) {
+            display: none !important;
+        }
+        .menu {
+            order: 3;
+        }
+        .menu .cart {
+            display: block;
+            margin-right: 20px;
+        }
+        .signin-btn {
+            display: none;
+        }
+        .locat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .category {
+            width: 100%;
+            overflow-x: auto;
+        }
+        .categories {
+            white-space: nowrap;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .categories li {
+            display: inline-block;
+            margin: 0 5px;
+        }
+        .categories li:first-child {
+            margin-left: 0;
+        }
+        .location {
+            order: 2;
+            display: flex;
+            align-items: center !important;
+            text-decoration: none;
+            margin-left: 3px;
+            margin-top: 10px;
+        }
+    }
+}
