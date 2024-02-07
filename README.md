@@ -5,3 +5,4 @@ Top Universe task 3
 | Dev-Iyke: https://github.com/Dev-Iyke  | All sections |
 | Wabjay: https://github.com/Wabjay      |  Section 2   |
 | Mitchelle: https://github.com/mitchelle-michael      |  Section 2   |
+| Kingsley: https://github.com/Ifeanyikings      |  Section 2   |
