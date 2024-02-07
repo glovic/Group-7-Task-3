@@ -2,7 +2,9 @@ p {
   margin: 0px;
   padding: 0px;
 }
-
+hr {
+  border-color: #ffffff;
+}
 .header {
   width: 1400px;
   height: 112px;
