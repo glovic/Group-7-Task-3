@@ -6,8 +6,8 @@ Top Universe task 3
 | Wabjay: https://github.com/Wabjay      |  Section 2 - Table   |
 | Mitchelle: https://github.com/mitchelle-michael      |  Section 2 - pagination   |
 | Natasha      | Section 1 - Filters section   |
-| Alafiajnr   |  Products section   |
-| Innocent E   |  Media query   |
-| Victor     |  Header section   |
+| Alafiajnr   |  Section 1 - Products section   |
+| Innocent E   | Section 1 - Media query   |
+| Victor     | Section 1 - Header section   |
 
 
