@@ -45,6 +45,22 @@
   padding: 12px;
   border-radius: 8px;
  }
+
+ .prev{
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 1rem;
+  cursor: pointer;
+  
+}
+.prev a{
+  text-decoration: none;
+  color: black;
+}
+.prev:hover{
+  text-decoration: underline;
+}
  @media screen and (max-width:640px) {
   .pagination button {
     p {
