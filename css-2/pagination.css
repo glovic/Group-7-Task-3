@@ -1,0 +1,65 @@
+/* Name of Contributor: <<Input your name here>> */
+.pagination,
+.pagination button,
+.pagination .num {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1rem 1rem;
+}
+.pagination button {
+  height: 36px;
+  padding: 0.5rem 1rem;
+  border: solid gray 1px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+.pagination button:hover{
+  border: none;
+  text-decoration: underline;
+}
+.num, .num-mobile {
+  display: flex;
+  gap: 5px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 5px;
+}
+.num-mobile {
+  font-size: 18px;
+  border-radius: 8px;
+  color: #344054;
+}
+.one {
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #EAECF0;
+  color: #7F56D9;
+ }
+ .two, .three, .dot, .eight, .nine, .ten {
+  padding: 12px;
+  border-radius: 8px;
+ }
+ @media screen and (max-width:640px) {
+  .pagination button {
+    p {
+      display: none;
+    }
+  }
+  .num {
+    display: none !important;
+  }
+  .num-mobile {
+    margin-top: -16px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .num-mobile {
+    display: none;
+  }
+}

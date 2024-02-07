@@ -1,0 +1,153 @@
+
+*{
+    font-family:'Inter', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#table{
+    width: 100%;
+    max-width: 1216px;
+    margin: 40px auto;
+}
+.table-header{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 16px;
+    
+}
+.table-header .title{
+    color: #101828;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 1px 4.5px 4px rgba(3, 7, 18, 0.16);
+}
+
+.table-header .users-count{
+    color: #6941C6;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #F9F5FF;
+    padding: 8px;
+    border-radius: 50px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  table .mobile{
+    display: table-cell;
+}
+  th, td {
+    border-bottom: 1px solid #EAECF0;
+    padding: 8px 16px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: #667085;
+    display: none;
+    height: 72px;
+  }
+  th {
+    background-color: #F9FAFB;
+    font-size: 12px;
+    height: 44px;
+  }
+  table th .flex img{
+    width: 16px;
+    height: 16px;
+  }
+  table .flex{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  table .flex img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  table .flex .name-1{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #7F56D9;
+    background: #F9F5FF;
+  }
+  table .flex .username{
+    color: #667085;
+    font-size: 14px;
+  }
+
+  table .flex .name{
+    color: #101828;
+    font-weight: 700;
+    font-size: 14px;
+
+  }
+  table td .status{
+    background-color: #ECFDF3;
+    padding: 4px 8px;
+    border-radius: 50px;
+    color: #027A48;
+    font-weight: 600;
+  }
+
+table .teams{
+    display: flex;
+    justify-content: space-between;
+}
+  table .teams .roles, table .teams .actions{
+    display: flex;
+    align-items:center ;
+    gap: 4px;
+  }
+
+  table .roles span{
+    background-color: #F2F4F7;
+    padding: 4px 8px;
+    border-radius: 50px;
+    color: #344054;
+  } 
+  table .roles .purple{
+    background-color: #F9F5FF;
+    color: #6941C6;
+  }
+  table .roles .light-blue{
+    background-color: #EFF8FF;
+    color: #175CD3;
+  }
+  table .roles .blue{
+    background-color: #EEF4FF;
+    color: #3538CD;
+  }
+
+  table .teams .actions{
+    gap: 10px;
+  }
+
+  table .teams .actions img{
+padding: 8px;
+cursor: pointer;  }
+@media screen and (min-width:640px) {
+    table .tablet{
+        display: table-cell;
+    }
+}
+  @media screen and (min-width: 1024px) {
+   
+th, td{
+    display: table-cell;
+}
+  }
