@@ -5,7 +5,7 @@ p {
 
 .main-body {
   width: 1200px;
-  margin-left: 2rem;
+  margin-left: 6rem;
   margin-top: 2rem;
 }
 
@@ -200,19 +200,17 @@ p {
   margin: 5px 0px;
 }
 
-
-.next{
+.next {
   background-color: white;
   border: none;
   border-radius: 7px;
   padding: 1rem;
   cursor: pointer;
-  
 }
-.next a{
+.next a {
   text-decoration: none;
   color: black;
 }
-.next:hover{
+.next:hover {
   text-decoration: underline;
 }

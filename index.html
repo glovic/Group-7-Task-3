@@ -1,358 +1,550 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css-1/header.css" />
+    <link rel="stylesheet" href="./css-1/Filters.css" />
+    <link rel="stylesheet" href="./css-1/products.css" />
+    <link rel="stylesheet" href="./css-1/media-query.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
-  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./css-1/Filters.css" />
-  <link rel="stylesheet" href="./css-1/products.css" />
-  <link rel="stylesheet" href="./css-1/media-query.css">
-</head>
-
-<body>
-  <div class="main-body">
-    <div class="search-section">
-      <p class="found-result">
-        Found 376 results for <span>dji phantom</span>
-      </p>
-      <div class="left-search-section">
-        <div class="dropdown">
-          <p>Sort by <span>Featured</span></p>
-          <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1 0.5L5 4.5L9 0.5" stroke="#6E7C87" />
-          </svg>
-        </div>
-
-        <div class="view">
-          <div class="first-grouped-icon">
-            <div class="view-list">
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <body>
+    <div>
+      <!-- Header Section -->
+      <div class="header">
+        <div class="sub-header">
+          <div class="logo">
+            <div class="logo-image">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M6 6H12V12H6V6Z" fill="#F76659" />
                 <path
-                  d="M2 0C1.46957 0 0.960859 0.210714 0.585786 0.585786C0.210714 0.960859 0 1.46957 0 2V4C0 4.53043 0.210714 5.03914 0.585786 5.41421C0.960859 5.78929 1.46957 6 2 6H4C4.53043 6 5.03914 5.78929 5.41421 5.41421C5.78929 5.03914 6 4.53043 6 4V2C6 1.46957 5.78929 0.960859 5.41421 0.585786C5.03914 0.210714 4.53043 0 4 0H2ZM2 8C1.46957 8 0.960859 8.21071 0.585786 8.58579C0.210714 8.96086 0 9.46957 0 10V12C0 12.5304 0.210714 13.0391 0.585786 13.4142C0.960859 13.7893 1.46957 14 2 14H4C4.53043 14 5.03914 13.7893 5.41421 13.4142C5.78929 13.0391 6 12.5304 6 12V10C6 9.46957 5.78929 8.96086 5.41421 8.58579C5.03914 8.21071 4.53043 8 4 8H2ZM8 2C8 1.46957 8.21071 0.960859 8.58579 0.585786C8.96086 0.210714 9.46957 0 10 0H12C12.5304 0 13.0391 0.210714 13.4142 0.585786C13.7893 0.960859 14 1.46957 14 2V4C14 4.53043 13.7893 5.03914 13.4142 5.41421C13.0391 5.78929 12.5304 6 12 6H10C9.46957 6 8.96086 5.78929 8.58579 5.41421C8.21071 5.03914 8 4.53043 8 4V2ZM8 10C8 9.46957 8.21071 8.96086 8.58579 8.58579C8.96086 8.21071 9.46957 8 10 8H12C12.5304 8 13.0391 8.21071 13.4142 8.58579C13.7893 8.96086 14 9.46957 14 10V12C14 12.5304 13.7893 13.0391 13.4142 13.4142C13.0391 13.7893 12.5304 14 12 14H10C9.46957 14 8.96086 13.7893 8.58579 13.4142C8.21071 13.0391 8 12.5304 8 12V10Z"
-                  fill="#252C32" />
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.29289 0.292893C6.10536 0.48043 6 0.734784 6 1V2H4C3.46957 2 2.96086 2.21071 2.58579 2.58579C2.21071 2.96086 2 3.46957 2 4V6H1C0.734784 6 0.48043 6.10536 0.292893 6.29289C0.105357 6.48043 0 6.73478 0 7C0 7.26522 0.105357 7.51957 0.292893 7.70711C0.48043 7.89464 0.734784 8 1 8H2V10H1C0.734784 10 0.48043 10.1054 0.292893 10.2929C0.105357 10.4804 0 10.7348 0 11C0 11.2652 0.105357 11.5196 0.292893 11.7071C0.48043 11.8946 0.734784 12 1 12H2V14C2 14.5304 2.21071 15.0391 2.58579 15.4142C2.96086 15.7893 3.46957 16 4 16H6V17C6 17.2652 6.10536 17.5196 6.29289 17.7071C6.48043 17.8946 6.73478 18 7 18C7.26522 18 7.51957 17.8946 7.70711 17.7071C7.89464 17.5196 8 17.2652 8 17V16H10V17C10 17.2652 10.1054 17.5196 10.2929 17.7071C10.4804 17.8946 10.7348 18 11 18C11.2652 18 11.5196 17.8946 11.7071 17.7071C11.8946 17.5196 12 17.2652 12 17V16H14C14.5304 16 15.0391 15.7893 15.4142 15.4142C15.7893 15.0391 16 14.5304 16 14V12H17C17.2652 12 17.5196 11.8946 17.7071 11.7071C17.8946 11.5196 18 11.2652 18 11C18 10.7348 17.8946 10.4804 17.7071 10.2929C17.5196 10.1054 17.2652 10 17 10H16V8H17C17.2652 8 17.5196 7.89464 17.7071 7.70711C17.8946 7.51957 18 7.26522 18 7C18 6.73478 17.8946 6.48043 17.7071 6.29289C17.5196 6.10536 17.2652 6 17 6H16V4C16 3.46957 15.7893 2.96086 15.4142 2.58579C15.0391 2.21071 14.5304 2 14 2H12V1C12 0.734784 11.8946 0.48043 11.7071 0.292893C11.5196 0.105357 11.2652 0 11 0C10.7348 0 10.4804 0.105357 10.2929 0.292893C10.1054 0.48043 10 0.734784 10 1V2H8V1C8 0.734784 7.89464 0.48043 7.70711 0.292893C7.51957 0.105357 7.26522 0 7 0C6.73478 0 6.48043 0.105357 6.29289 0.292893ZM14 4H4V14H14V4Z"
+                  fill="#F76659"
+                />
               </svg>
             </div>
+            <p>What a Market!</p>
           </div>
-          <div class="first-grouped-icon">
-            <div class="view-grid">
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M0 1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0H13C13.2652 0 13.5196 0.105357 13.7071 0.292893C13.8946 0.48043 14 0.734784 14 1C14 1.26522 13.8946 1.51957 13.7071 1.70711C13.5196 1.89464 13.2652 2 13 2H1C0.734784 2 0.48043 1.89464 0.292893 1.70711C0.105357 1.51957 0 1.26522 0 1ZM0 5C0 4.73478 0.105357 4.48043 0.292893 4.29289C0.48043 4.10536 0.734784 4 1 4H13C13.2652 4 13.5196 4.10536 13.7071 4.29289C13.8946 4.48043 14 4.73478 14 5C14 5.26522 13.8946 5.51957 13.7071 5.70711C13.5196 5.89464 13.2652 6 13 6H1C0.734784 6 0.48043 5.89464 0.292893 5.70711C0.105357 5.51957 0 5.26522 0 5ZM0 9C0 8.73478 0.105357 8.48043 0.292893 8.29289C0.48043 8.10536 0.734784 8 1 8H13C13.2652 8 13.5196 8.10536 13.7071 8.29289C13.8946 8.48043 14 8.73478 14 9C14 9.26522 13.8946 9.51957 13.7071 9.70711C13.5196 9.89464 13.2652 10 13 10H1C0.734784 10 0.48043 9.89464 0.292893 9.70711C0.105357 9.51957 0 9.26522 0 9ZM0 13C0 12.7348 0.105357 12.4804 0.292893 12.2929C0.48043 12.1054 0.734784 12 1 12H13C13.2652 12 13.5196 12.1054 13.7071 12.2929C13.8946 12.4804 14 12.7348 14 13C14 13.2652 13.8946 13.5196 13.7071 13.7071C13.5196 13.8946 13.2652 14 13 14H1C0.734784 14 0.48043 13.8946 0.292893 13.7071C0.105357 13.5196 0 13.2652 0 13Z"
-                  fill="#B0BABF" />
+          <div class="center-bar">
+            <div class="btn-search">
+              <div class="btn-title">
+                <div class="cat-btn">
+                  <div class="menu-hamburger">
+                    <svg
+                      width="14"
+                      height="12"
+                      viewBox="0 0 14 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0 1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0H13C13.2652 0 13.5196 0.105357 13.7071 0.292893C13.8946 0.48043 14 0.734784 14 1C14 1.26522 13.8946 1.51957 13.7071 1.70711C13.5196 1.89464 13.2652 2 13 2H1C0.734784 2 0.48043 1.89464 0.292893 1.70711C0.105357 1.51957 0 1.26522 0 1ZM0 6C0 5.73478 0.105357 5.48043 0.292893 5.29289C0.48043 5.10536 0.734784 5 1 5H13C13.2652 5 13.5196 5.10536 13.7071 5.29289C13.8946 5.48043 14 5.73478 14 6C14 6.26522 13.8946 6.51957 13.7071 6.70711C13.5196 6.89464 13.2652 7 13 7H1C0.734784 7 0.48043 6.89464 0.292893 6.70711C0.105357 6.51957 0 6.26522 0 6ZM0 11C0 10.7348 0.105357 10.4804 0.292893 10.2929C0.48043 10.1054 0.734784 10 1 10H13C13.2652 10 13.5196 10.1054 13.7071 10.2929C13.8946 10.4804 14 10.7348 14 11C14 11.2652 13.8946 11.5196 13.7071 11.7071C13.5196 11.8946 13.2652 12 13 12H1C0.734784 12 0.48043 11.8946 0.292893 11.7071C0.105357 11.5196 0 11.2652 0 11Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                  <p>Categories</p>
+                </div>
+              </div>
+              <div class="search-bar">
+                <p>DJI phantom</p>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6 2.00077C4.93913 2.00077 3.92172 2.42219 3.17157 3.17234C2.42143 3.92248 2 4.9399 2 6.00077C2 7.06163 2.42143 8.07905 3.17157 8.82919C3.92172 9.57934 4.93913 10.0008 6 10.0008C7.06087 10.0008 8.07828 9.57934 8.82843 8.82919C9.57857 8.07905 10 7.06163 10 6.00077C10 4.9399 9.57857 3.92248 8.82843 3.17234C8.07828 2.42219 7.06087 2.00077 6 2.00077ZM1.13461e-07 6.00077C-0.00012039 5.05647 0.222642 4.12548 0.650171 3.28351C1.0777 2.44154 1.69792 1.71236 2.4604 1.15529C3.22287 0.598219 4.10606 0.228978 5.03815 0.0775993C5.97023 -0.0737798 6.92488 -0.00302249 7.82446 0.284117C8.72404 0.571256 9.54315 1.06667 10.2152 1.73006C10.8872 2.39346 11.3931 3.2061 11.6919 4.1019C11.9906 4.9977 12.0737 5.95136 11.9343 6.88532C11.795 7.81928 11.4372 8.70716 10.89 9.47677L15.707 14.2938C15.8892 14.4824 15.99 14.735 15.9877 14.9972C15.9854 15.2594 15.8802 15.5102 15.6948 15.6956C15.5094 15.881 15.2586 15.9862 14.9964 15.9884C14.7342 15.9907 14.4816 15.8899 14.293 15.7078L9.477 10.8918C8.57936 11.53 7.52335 11.9089 6.42468 11.9869C5.326 12.0648 4.22707 11.8389 3.2483 11.3337C2.26953 10.8286 1.44869 10.0638 0.875723 9.12312C0.30276 8.18244 -0.000214051 7.1022 1.13461e-07 6.00077Z"
+                    fill="#B0BABF"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="orders-cart">
+              <div class="orders-fav">
+                <div class="orders-title">
+                  <div class="cube">
+                    <svg
+                      width="14"
+                      height="16"
+                      viewBox="0 0 14 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8 15C8.00009 15.1704 8.04372 15.3379 8.12674 15.4867C8.20977 15.6355 8.32944 15.7607 8.47439 15.8502C8.61935 15.9398 8.78479 15.9908 8.95501 15.9985C9.12523 16.0061 9.29458 15.9702 9.447 15.894L13.447 13.894C13.6131 13.811 13.7528 13.6834 13.8504 13.5255C13.9481 13.3676 13.9999 13.1857 14 13V7.23602C13.9999 7.06562 13.9563 6.89808 13.8733 6.74929C13.7902 6.60049 13.6706 6.47538 13.5256 6.38582C13.3806 6.29626 13.2152 6.24523 13.045 6.23756C12.8748 6.2299 12.7054 6.26585 12.553 6.34202L8.553 8.34202C8.38692 8.42501 8.24722 8.55259 8.14955 8.71049C8.05188 8.86839 8.0001 9.05035 8 9.23602V15ZM12.211 4.27602C12.3769 4.19288 12.5164 4.06523 12.6138 3.90734C12.7113 3.74946 12.7629 3.56756 12.7629 3.38202C12.7629 3.19647 12.7113 3.01457 12.6138 2.85669C12.5164 2.69881 12.3769 2.57115 12.211 2.48802L7.447 0.106015C7.3082 0.0366567 7.15516 0.000549316 7 0.000549316C6.84484 0.000549316 6.6918 0.0366567 6.553 0.106015L1.789 2.48802C1.62312 2.57115 1.48364 2.69881 1.38617 2.85669C1.28869 3.01457 1.23707 3.19647 1.23707 3.38202C1.23707 3.56756 1.28869 3.74946 1.38617 3.90734C1.48364 4.06523 1.62312 4.19288 1.789 4.27602L6.553 6.65802C6.6918 6.72737 6.84484 6.76348 7 6.76348C7.15516 6.76348 7.3082 6.72737 7.447 6.65802L12.211 4.27602ZM1.447 6.34202C1.29458 6.26585 1.12522 6.2299 0.955006 6.23756C0.784787 6.24523 0.619351 6.29626 0.474394 6.38582C0.329438 6.47538 0.209769 6.60049 0.126744 6.74929C0.0437189 6.89808 9.09694e-05 7.06562 0 7.23602V13C9.91486e-05 13.1857 0.0518831 13.3676 0.149552 13.5255C0.247222 13.6834 0.386919 13.811 0.553 13.894L4.553 15.894C4.70542 15.9702 4.87477 16.0061 5.04499 15.9985C5.21521 15.9908 5.38065 15.9398 5.52561 15.8502C5.67056 15.7607 5.79023 15.6355 5.87326 15.4867C5.95628 15.3379 5.99991 15.1704 6 15V9.23602C5.9999 9.05035 5.94812 8.86839 5.85045 8.71049C5.75278 8.55259 5.61308 8.42501 5.447 8.34202L1.447 6.34202Z"
+                        fill="#B0BABF"
+                      />
+                    </svg>
+                  </div>
+                  <p>Orders</p>
+                </div>
+              </div>
+              <div class="orders-fav">
+                <div class="orders-title">
+                  <div class="cube">
+                    <svg
+                      width="17"
+                      height="14"
+                      viewBox="0 0 17 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.17115 1.22115C1.92126 0.471268 2.93849 0.0500067 3.99915 0.0500067C5.0598 0.0500067 6.07703 0.471268 6.82715 1.22115L7.99915 2.39215L9.17115 1.22115C9.54013 0.839112 9.98151 0.534383 10.4695 0.324747C10.9575 0.115111 11.4824 0.00476629 12.0135 0.000151027C12.5447 -0.00446424 13.0714 0.0967427 13.563 0.297866C14.0545 0.49899 14.5012 0.796002 14.8767 1.17157C15.2523 1.54714 15.5493 1.99375 15.7504 2.48534C15.9516 2.97692 16.0528 3.50364 16.0481 4.03476C16.0435 4.56588 15.9332 5.09075 15.7236 5.57877C15.5139 6.06679 15.2092 6.50817 14.8271 6.87715L7.99915 13.7062L1.17115 6.87715C0.421261 6.12704 0 5.10981 0 4.04915C0 2.9885 0.421261 1.97126 1.17115 1.22115Z"
+                        fill="#B0BABF"
+                      />
+                    </svg>
+                  </div>
+                  <p>Favorites</p>
+                </div>
+              </div>
+              <div class="orders-fav">
+                <div class="orders-title" id="cart">
+                  <div class="cube">
+                    <svg
+                      width="16"
+                      height="17"
+                      viewBox="0 0 16 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 0C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1C0 1.26522 0.105357 1.51957 0.292893 1.70711C0.48043 1.89464 0.734784 2 1 2H2.22L2.525 3.222C2.52803 3.23607 2.53136 3.25007 2.535 3.264L3.893 8.694L3 9.586C1.74 10.846 2.632 13 4.414 13H13C13.2652 13 13.5196 12.8946 13.7071 12.7071C13.8946 12.5196 14 12.2652 14 12C14 11.7348 13.8946 11.4804 13.7071 11.2929C13.5196 11.1054 13.2652 11 13 11H4.414L5.414 10H12C12.1857 9.9999 12.3676 9.94812 12.5255 9.85045C12.6834 9.75278 12.811 9.61308 12.894 9.447L15.894 3.447C15.9702 3.29458 16.0061 3.12522 15.9985 2.95501C15.9908 2.78479 15.9398 2.61935 15.8502 2.47439C15.7606 2.32944 15.6355 2.20977 15.4867 2.12674C15.3379 2.04372 15.1704 2.00009 15 2H4.28L3.97 0.757C3.91583 0.540753 3.79095 0.348809 3.61521 0.211655C3.43946 0.0745022 3.22293 5.86043e-06 3 0H1ZM14 15.5C14 15.8978 13.842 16.2794 13.5607 16.5607C13.2794 16.842 12.8978 17 12.5 17C12.1022 17 11.7206 16.842 11.4393 16.5607C11.158 16.2794 11 15.8978 11 15.5C11 15.1022 11.158 14.7206 11.4393 14.4393C11.7206 14.158 12.1022 14 12.5 14C12.8978 14 13.2794 14.158 13.5607 14.4393C13.842 14.7206 14 15.1022 14 15.5ZM4.5 17C4.89782 17 5.27936 16.842 5.56066 16.5607C5.84196 16.2794 6 15.8978 6 15.5C6 15.1022 5.84196 14.7206 5.56066 14.4393C5.27936 14.158 4.89782 14 4.5 14C4.10218 14 3.72064 14.158 3.43934 14.4393C3.15804 14.7206 3 15.1022 3 15.5C3 15.8978 3.15804 16.2794 3.43934 16.5607C3.72064 16.842 4.10218 17 4.5 17Z"
+                        fill="#B0BABF"
+                      />
+                    </svg>
+                  </div>
+                  <p>Cart</p>
+                  <div id="orders">
+                    <p>3</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sign-in">
+            <div class="sign-title">
+              <p>Sign In</p>
+            </div>
+          </div>
+        </div>
+        <div class="sub-header hidden">
+          <div class="location">
+            <svg
+              width="14"
+              height="17"
+              viewBox="0 0 14 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M2.05002 2.04999C3.36284 0.73717 5.14341 -0.000366211 7.00002 -0.000366211C8.85663 -0.000366211 10.6372 0.73717 11.95 2.04999C13.2628 3.36281 14.0004 5.14338 14.0004 6.99999C14.0004 8.8566 13.2628 10.6372 11.95 11.95L7.00002 16.9L2.05002 11.95C1.39993 11.3 0.884251 10.5283 0.532423 9.67894C0.180596 8.82961 -0.000488281 7.9193 -0.000488281 6.99999C-0.000488281 6.08068 0.180596 5.17037 0.532423 4.32104C0.884251 3.47172 1.39993 2.70001 2.05002 2.04999ZM7.00002 8.99999C7.53045 8.99999 8.03916 8.78928 8.41423 8.4142C8.7893 8.03913 9.00002 7.53042 9.00002 6.99999C9.00002 6.46956 8.7893 5.96085 8.41423 5.58578C8.03916 5.2107 7.53045 4.99999 7.00002 4.99999C6.46958 4.99999 5.96088 5.2107 5.5858 5.58578C5.21073 5.96085 5.00002 6.46956 5.00002 6.99999C5.00002 7.53042 5.21073 8.03913 5.5858 8.4142C5.96088 8.78928 6.46958 8.99999 7.00002 8.99999Z"
+                fill="#B0BABF"
+              />
+            </svg>
+            <p>California</p>
+          </div>
+          <div class="categories">
+            <p>Best Sellers</p>
+            <p>New Releases</p>
+            <p>Books</p>
+            <p>Computers</p>
+            <p>Fashion</p>
+            <p>Health</p>
+            <p>Pharmacy</p>
+            <p>Toys & Games</p>
+          </div>
+          <div class="">
+            <p>Become a seller</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!-- End of Header Section -->
+      <div class="main-body">
+        <div class="search-section">
+          <p class="found-result">
+            Found 376 results for <span>dji phantom</span>
+          </p>
+          <div class="left-search-section">
+            <div class="dropdown">
+              <p>Sort by <span>Featured</span></p>
+              <svg
+                width="10"
+                height="6"
+                viewBox="0 0 10 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M1 0.5L5 4.5L9 0.5" stroke="#6E7C87" />
               </svg>
+            </div>
+
+            <div class="view">
+              <div class="first-grouped-icon">
+                <div class="view-list">
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 0C1.46957 0 0.960859 0.210714 0.585786 0.585786C0.210714 0.960859 0 1.46957 0 2V4C0 4.53043 0.210714 5.03914 0.585786 5.41421C0.960859 5.78929 1.46957 6 2 6H4C4.53043 6 5.03914 5.78929 5.41421 5.41421C5.78929 5.03914 6 4.53043 6 4V2C6 1.46957 5.78929 0.960859 5.41421 0.585786C5.03914 0.210714 4.53043 0 4 0H2ZM2 8C1.46957 8 0.960859 8.21071 0.585786 8.58579C0.210714 8.96086 0 9.46957 0 10V12C0 12.5304 0.210714 13.0391 0.585786 13.4142C0.960859 13.7893 1.46957 14 2 14H4C4.53043 14 5.03914 13.7893 5.41421 13.4142C5.78929 13.0391 6 12.5304 6 12V10C6 9.46957 5.78929 8.96086 5.41421 8.58579C5.03914 8.21071 4.53043 8 4 8H2ZM8 2C8 1.46957 8.21071 0.960859 8.58579 0.585786C8.96086 0.210714 9.46957 0 10 0H12C12.5304 0 13.0391 0.210714 13.4142 0.585786C13.7893 0.960859 14 1.46957 14 2V4C14 4.53043 13.7893 5.03914 13.4142 5.41421C13.0391 5.78929 12.5304 6 12 6H10C9.46957 6 8.96086 5.78929 8.58579 5.41421C8.21071 5.03914 8 4.53043 8 4V2ZM8 10C8 9.46957 8.21071 8.96086 8.58579 8.58579C8.96086 8.21071 9.46957 8 10 8H12C12.5304 8 13.0391 8.21071 13.4142 8.58579C13.7893 8.96086 14 9.46957 14 10V12C14 12.5304 13.7893 13.0391 13.4142 13.4142C13.0391 13.7893 12.5304 14 12 14H10C9.46957 14 8.96086 13.7893 8.58579 13.4142C8.21071 13.0391 8 12.5304 8 12V10Z"
+                      fill="#252C32"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="first-grouped-icon">
+                <div class="view-grid">
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0 1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0H13C13.2652 0 13.5196 0.105357 13.7071 0.292893C13.8946 0.48043 14 0.734784 14 1C14 1.26522 13.8946 1.51957 13.7071 1.70711C13.5196 1.89464 13.2652 2 13 2H1C0.734784 2 0.48043 1.89464 0.292893 1.70711C0.105357 1.51957 0 1.26522 0 1ZM0 5C0 4.73478 0.105357 4.48043 0.292893 4.29289C0.48043 4.10536 0.734784 4 1 4H13C13.2652 4 13.5196 4.10536 13.7071 4.29289C13.8946 4.48043 14 4.73478 14 5C14 5.26522 13.8946 5.51957 13.7071 5.70711C13.5196 5.89464 13.2652 6 13 6H1C0.734784 6 0.48043 5.89464 0.292893 5.70711C0.105357 5.51957 0 5.26522 0 5ZM0 9C0 8.73478 0.105357 8.48043 0.292893 8.29289C0.48043 8.10536 0.734784 8 1 8H13C13.2652 8 13.5196 8.10536 13.7071 8.29289C13.8946 8.48043 14 8.73478 14 9C14 9.26522 13.8946 9.51957 13.7071 9.70711C13.5196 9.89464 13.2652 10 13 10H1C0.734784 10 0.48043 9.89464 0.292893 9.70711C0.105357 9.51957 0 9.26522 0 9ZM0 13C0 12.7348 0.105357 12.4804 0.292893 12.2929C0.48043 12.1054 0.734784 12 1 12H13C13.2652 12 13.5196 12.1054 13.7071 12.2929C13.8946 12.4804 14 12.7348 14 13C14 13.2652 13.8946 13.5196 13.7071 13.7071C13.5196 13.8946 13.2652 14 13 14H1C0.734784 14 0.48043 13.8946 0.292893 13.7071C0.105357 13.5196 0 13.2652 0 13Z"
+                      fill="#B0BABF"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <section class="left-section">
+            <h3 class="h3">Price, $</h3>
+            <div class="inputs">
+              <input class="input-1" type="text" placeholder="Min" />
+              <input class="input-2" type="text" placeholder="Max" />
+            </div>
+            <h4>Quadcopter features</h4>
+            <div class="filterA">
+              <div class="checkbox"></div>
+              <div class="text">App-controlled</div>
+            </div>
+
+            <div class="filterA">
+              <div class="checkbox"></div>
+              <div class="text">Obstacle avoidance</div>
+            </div>
+
+            <div class="filterA">
+              <div class="checkbox"></div>
+              <div class="text">Video Downlink Capable</div>
+            </div>
+
+            <div class="filterA">
+              <div class="checkbox"></div>
+              <div class="text">Wi-fi</div>
+            </div>
+
+            <h4>Video capture resolution</h4>
+            <div class="filterB">
+              <div class="checkbox"></div>
+              <div class="text">4K UHD 2160p</div>
+            </div>
+
+            <div class="filterB">
+              <div class="checkbox"></div>
+              <div class="text">FHD 1080p</div>
+            </div>
+
+            <div class="filterB">
+              <div class="checkbox"></div>
+              <div class="text">HD 720p</div>
+            </div>
+
+            <h4>Operator skill level</h4>
+            <div class="filterC">
+              <div class="checkbox"></div>
+              <div class="text">Beginner</div>
+            </div>
+
+            <div class="filterC">
+              <div class="checkbox"></div>
+              <div class="text">Intermediate</div>
+            </div>
+
+            <div class="filterC">
+              <div class="checkbox"></div>
+              <div class="text">Expert</div>
+            </div>
+
+            <h4>Brand</h4>
+            <div class="filterD">
+              <div class="checkbox"></div>
+              <div class="text">DJI</div>
+            </div>
+
+            <div class="filterD">
+              <div class="checkbox"></div>
+              <div class="text">Holy Stone</div>
+            </div>
+
+            <div class="filterD">
+              <div class="checkbox"></div>
+              <div class="text">Potensic</div>
+            </div>
+
+            <div class="filterD">
+              <div class="checkbox"></div>
+              <div class="text">Ruko</div>
+            </div>
+
+            <div class="filterD">
+              <div class="checkbox"></div>
+              <div class="text">aovo</div>
+            </div>
+
+            <div class="filterD">
+              <div class="checkbox"></div>
+              <div class="text">OXOXO</div>
+            </div>
+
+            <div class="filterD">
+              <div class="checkbox"></div>
+              <div class="text">REEDC</div>
+            </div>
+          </section>
+          <div class="product-content">
+            <div class="grid-container">
+              <div class="grid-item">
+                <div class="heart">
+                  <img src="./images-1/heart.png" alt="HI" />
+                </div>
+                <div class="add">
+                  <img src="./images-1/Vector.png" alt="" />
+                </div>
+                <div class="product-image">
+                  <img src="./images-1/image1.png" alt="" />
+                </div>
+                <p class="product-name">DJI Phantom 2 Vision+</p>
+                <p class="product-price">$599</p>
+                <div class="ratings">
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <div class="half-rate">
+                      <img class="left" src="./images-1/Left.png" alt="" />
+                      <img class="right" src="./images-1/Right.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star.png" alt="" />
+                  </div>
+                  <p class="product-rating">243</p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="heart">
+                  <img src="./images-1/heart.png" alt="HI" />
+                </div>
+                <div class="add">
+                  <img src="./images-1/Vector.png" alt="" />
+                </div>
+                <div class="product-image">
+                  <img src="./images-1/image2.png" alt="" />
+                </div>
+                <p class="product-name">DJI Phantom 4 Multispectral</p>
+                <p class="product-price">$1,449</p>
+                <div class="ratings">
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <p class="product-rating">98</p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="heart">
+                  <img src="./images-1/heart.png" alt="HI" />
+                </div>
+                <div class="add">
+                  <img src="./images-1/Vector.png" alt="" />
+                </div>
+                <div class="product-image">
+                  <img src="./images-1/image3.png" alt="" />
+                </div>
+                <p class="product-name">DJI Phantom 4 PRO</p>
+                <p class="product-price">$739</p>
+                <div class="ratings">
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star.png" alt="" />
+                  </div>
+
+                  <div class="rate">
+                    <img src="./images-1/Star.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star.png" alt="" />
+                  </div>
+                  <p class="product-rating">1002</p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="heart">
+                  <img src="./images-1/heart.png" alt="HI" />
+                </div>
+                <div class="add">
+                  <img src="./images-1/Vector.png" alt="" />
+                </div>
+                <div class="product-image">
+                  <img src="./images-1/image4.png" alt="" />
+                </div>
+                <p class="product-name">
+                  4 Series — Intelligent Flight Battery
+                </p>
+                <p class="product-price">$186</p>
+                <div class="ratings">
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star.png" alt="" />
+                  </div>
+                  <p class="product-rating">243</p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="heart">
+                  <img src="./images-1/heart.png" alt="HI" />
+                </div>
+                <div class="add">
+                  <img src="./images-1/Vector.png" alt="" />
+                </div>
+                <div class="product-image">
+                  <img src="./images-1/image6.png" alt="" />
+                </div>
+                <p class="product-name">DJI Phantom 3 — Intelligent Flight</p>
+                <p class="product-price">$98</p>
+                <div class="ratings">
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star.png" alt="" />
+                  </div>
+                  <p class="product-rating">98</p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="heart">
+                  <img src="./images-1/heart.png" alt="HI" />
+                </div>
+                <div class="add">
+                  <img src="./images-1/Vector.png" alt="" />
+                </div>
+                <div class="product-image">
+                  <img src="./images-1/image7.png" alt="" />
+                </div>
+                <p class="product-name">DJI Phantom 4 PRO</p>
+                <p class="product-price">$739</p>
+                <div class="ratings">
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star-yellow.png" alt="" />
+                  </div>
+
+                  <div class="rate">
+                    <img src="./images-1/Star.png" alt="" />
+                  </div>
+                  <div class="rate">
+                    <img src="./images-1/Star.png" alt="" />
+                  </div>
+                  <p class="product-rating">102</p>
+                </div>
+              </div>
+            </div>
+            <div class="chat-icon">
+              <img src="./images-1/chat-icon.png" alt="" />
             </div>
           </div>
         </div>
       </div>
+
+      <button class="next"><a href="./index-2.html">Next Section</a></button>
     </div>
-    <div class="content">
-      <section class="left-section">
-        <h3 class="h3">Price, $</h3>
-        <div class="inputs">
-          <input class="input-1" type="text" placeholder="Min" />
-          <input class="input-2" type="text" placeholder="Max" />
-        </div>
-        <h4>Quadcopter features</h4>
-        <div class="filterA">
-          <div class="checkbox"></div>
-          <div class="text">App-controlled</div>
-        </div>
-
-        <div class="filterA">
-          <div class="checkbox"></div>
-          <div class="text">Obstacle avoidance</div>
-        </div>
-
-        <div class="filterA">
-          <div class="checkbox"></div>
-          <div class="text">Video Downlink Capable</div>
-        </div>
-
-        <div class="filterA">
-          <div class="checkbox"></div>
-          <div class="text">Wi-fi</div>
-        </div>
-
-        <h4>Video capture resolution</h4>
-        <div class="filterB">
-          <div class="checkbox"></div>
-          <div class="text">4K UHD 2160p</div>
-        </div>
-
-        <div class="filterB">
-          <div class="checkbox"></div>
-          <div class="text">FHD 1080p</div>
-        </div>
-
-        <div class="filterB">
-          <div class="checkbox"></div>
-          <div class="text">HD 720p</div>
-        </div>
-
-        <h4>Operator skill level</h4>
-        <div class="filterC">
-          <div class="checkbox"></div>
-          <div class="text">Beginner</div>
-        </div>
-
-        <div class="filterC">
-          <div class="checkbox"></div>
-          <div class="text">Intermediate</div>
-        </div>
-
-        <div class="filterC">
-          <div class="checkbox"></div>
-          <div class="text">Expert</div>
-        </div>
-
-        <h4>Brand</h4>
-        <div class="filterD">
-          <div class="checkbox"></div>
-          <div class="text">DJI</div>
-        </div>
-
-        <div class="filterD">
-          <div class="checkbox"></div>
-          <div class="text">Holy Stone</div>
-        </div>
-
-        <div class="filterD">
-          <div class="checkbox"></div>
-          <div class="text">Potensic</div>
-        </div>
-
-        <div class="filterD">
-          <div class="checkbox"></div>
-          <div class="text">Ruko</div>
-        </div>
-
-        <div class="filterD">
-          <div class="checkbox"></div>
-          <div class="text">aovo</div>
-        </div>
-
-        <div class="filterD">
-          <div class="checkbox"></div>
-          <div class="text">OXOXO</div>
-        </div>
-
-        <div class="filterD">
-          <div class="checkbox"></div>
-          <div class="text">REEDC</div>
-        </div>
-      </section>
-      <div class="product-content">
-        <div class="grid-container">
-          <div class="grid-item">
-            <div class="heart">
-              <img src="./images-1/heart.png" alt="HI" />
-            </div>
-            <div class="add">
-              <img src="./images-1/Vector.png" alt="" />
-            </div>
-            <div class="product-image">
-              <img src="./images-1/image1.png" alt="" />
-            </div>
-            <p class="product-name">DJI Phantom 2 Vision+</p>
-            <p class="product-price">$599</p>
-            <div class="ratings">
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <div class="half-rate">
-                  <img class="left" src="./images-1/Left.png" alt="" />
-                  <img class="right" src="./images-1/Right.png" alt="" />
-                </div>
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star.png" alt="" />
-              </div>
-              <p class="product-rating">243</p>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="heart">
-              <img src="./images-1/heart.png" alt="HI" />
-            </div>
-            <div class="add">
-              <img src="./images-1/Vector.png" alt="" />
-            </div>
-            <div class="product-image">
-              <img src="./images-1/image2.png" alt="" />
-            </div>
-            <p class="product-name">DJI Phantom 4 Multispectral</p>
-            <p class="product-price">$1,449</p>
-            <div class="ratings">
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <p class="product-rating">98</p>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="heart">
-              <img src="./images-1/heart.png" alt="HI" />
-            </div>
-            <div class="add">
-              <img src="./images-1/Vector.png" alt="" />
-            </div>
-            <div class="product-image">
-              <img src="./images-1/image3.png" alt="" />
-            </div>
-            <p class="product-name">DJI Phantom 4 PRO</p>
-            <p class="product-price">$739</p>
-            <div class="ratings">
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star.png" alt="" />
-              </div>
-
-              <div class="rate">
-                <img src="./images-1/Star.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star.png" alt="" />
-              </div>
-              <p class="product-rating">1002</p>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="heart">
-              <img src="./images-1/heart.png" alt="HI" />
-            </div>
-            <div class="add">
-              <img src="./images-1/Vector.png" alt="" />
-            </div>
-            <div class="product-image">
-              <img src="./images-1/image4.png" alt="" />
-            </div>
-            <p class="product-name">4 Series — Intelligent Flight Battery</p>
-            <p class="product-price">$186</p>
-            <div class="ratings">
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <div class="half-rate">
-                  <img class="left" src="./images-1/Left.png" alt="" />
-                  <img class="right" src="./images-1/Right.png" alt="" />
-                </div>
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star.png" alt="" />
-              </div>
-              <p class="product-rating">243</p>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="heart">
-              <img src="./images-1/heart.png" alt="HI" />
-            </div>
-            <div class="add">
-              <img src="./images-1/Vector.png" alt="" />
-            </div>
-            <div class="product-image">
-              <img src="./images-1/image6.png" alt="" />
-            </div>
-            <p class="product-name">DJI Phantom 3 — Intelligent Flight</p>
-            <p class="product-price">$98</p>
-            <div class="ratings">
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <div class="half-rate">
-                  <img class="left" src="./images-1/Left.png" alt="" />
-                  <img class="right" src="./images-1/Right.png" alt="" />
-                </div>
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star.png" alt="" />
-              </div>
-              <p class="product-rating">98</p>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="heart">
-              <img src="./images-1/heart.png" alt="HI" />
-            </div>
-            <div class="add">
-              <img src="./images-1/Vector.png" alt="" />
-            </div>
-            <div class="product-image">
-              <img src="./images-1/image7.png" alt="" />
-            </div>
-            <p class="product-name">DJI Phantom 4 PRO</p>
-            <p class="product-price">$739</p>
-            <div class="ratings">
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star-yellow.png" alt="" />
-              </div>
-
-              <div class="rate">
-                <img src="./images-1/Star.png" alt="" />
-              </div>
-              <div class="rate">
-                <img src="./images-1/Star.png" alt="" />
-              </div>
-              <p class="product-rating">102</p>
-            </div>
-          </div>
-        </div>
-        <div class="chat-icon">
-          <img src="./images-1/chat-icon.png" alt="" />
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <button class="next"><a href="./index-2.html">Next Section</a></button>
-</body>
-
+  </body>
 </html>

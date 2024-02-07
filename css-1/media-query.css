@@ -1,7 +1,43 @@
-
 @media only screen and (max-width: 548px) {
   body {
     overflow-x: hidden;
+  }
+  .header {
+    width: 100%;
+    height: auto;
+  }
+
+  .header .sub-header,
+  .header .sub-header .center-bar,
+  .header .sub-header .center-bar .btn-search {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+  }
+
+  .header .sub-header .center-bar .btn-search,
+  .header .sub-header .center-bar .btn-search .search-bar {
+    width: 100%;
+  }
+
+  .header > .sub-header > .logo {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .header > .sub-header > .logo p {
+    font-size: 20px;
+  }
+  .header > .sub-header > .logo svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header .hidden {
+    display: none;
   }
 
   .main-body {
@@ -82,7 +118,6 @@
   .grid-item .product-price {
     font-size: 14px;
   }
- 
 }
 
 /* Very small screens */
