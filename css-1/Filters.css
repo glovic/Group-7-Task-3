@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left-section {
+  background-color: #ffff;
+  /* margin-left: 3rem;
+  margin-top: 3rem; */
+  width: 280px;
+  height: 708px;
+}
+
+.h3 {
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 0.3rem;
+}
+
+.content .left-section .inputs {
+  display: flex;
+}
+
+.input-1 {
+  width: 8rem;
+  height: 1.8rem;
+  border: 1px solid #dde2e4;
+  border-radius: 6px;
+  padding-left: 0.5rem;
+}
+
+.input-2 {
+  width: 8rem;
+  height: 1.8rem;
+  border: 1px solid #dde2e4;
+  border-radius: 6px;
+  /* gap:1rem; */
+  padding-left: 0.5rem;
+  margin-left: 0.3rem;
+}
+
+.left-section h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 1.5rem;
+  padding-bottom: 0.3rem;
+  line-height: 24px;
+  color: #252c32;
+  margin-left: 0.3rem;
+}
+
+.filterA,
+.filterB,
+.filterC,
+.filterD {
+  padding-top: 0.4rem;
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+}
+.filterA .checkbox,
+.filterB .checkbox,
+.filterC .checkbox,
+.filterD .checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background-color: #f6f8f9;
+  border: 1px solid #b0babf;
+
+  /* margin-left: .3rem; */
+}
+
+.filterA .text,
+.filterB .text,
+.filterC .text,
+.filterD .text {
+  font-family: "inter", sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+}
