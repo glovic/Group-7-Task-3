@@ -4,8 +4,8 @@ p {
 }
 
 .main-body {
-  width: 1240px;
-  margin-left: 5rem;
+  width: 1200px;
+  margin-left: 2rem;
   margin-top: 2rem;
 }
 
@@ -198,4 +198,22 @@ p {
   font-weight: 600;
   font-size: 18px;
   margin: 5px 0px;
+}
+
+
+.next{
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 1rem;
+  cursor: pointer;
+  
+}
+.next a{
+  text-decoration: none;
+  align-self: center;
+  color: black;
+}
+.next:hover{
+  text-decoration: underline;
 }
