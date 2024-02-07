@@ -211,7 +211,6 @@ p {
 }
 .next a{
   text-decoration: none;
-  align-self: center;
   color: black;
 }
 .next:hover{
